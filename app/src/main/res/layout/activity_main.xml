@@ -1,0 +1,43 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/app_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:text="Find Your Tutor"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true">
+
+        <Button
+            android:id="@+id/tutee_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="I need a tutor"
+            android:layout_gravity="center"
+            android:textColor="@android:color/white"
+            android:textSize="18sp"
+            android:padding="20dp"/>
+
+        <Button
+            android:id="@+id/tutor_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="I want to be a tutor"
+            android:textColor="@android:color/white"
+            android:textSize="18sp"
+            android:padding="20dp"/>
+
+    </LinearLayout>
+
+</RelativeLayout>
